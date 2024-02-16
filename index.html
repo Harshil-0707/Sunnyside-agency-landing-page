@@ -34,7 +34,34 @@
                 <button>CONTACT</button>
               </li>
             </ul>
+            <ul id="links-mobile">
+              <li class="link">
+                <a href="#">About</a>
+              </li>
+              <li class="link">
+                <a href="#">Services</a>
+              </li>
+              <li class="link">
+                <a href="#">Projects</a>
+              </li>
+              <li class="link">
+                <button>CONTACT</button>
+              </li>
+            </ul>
           </div>
+          <svg
+            id="hamburger"
+            class="mobile"
+            width="24"
+            height="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
+              fill="#FFF"
+              fill-rule="evenodd"
+            />
+          </svg>
         </nav>
         <h1>WE ARE CREATIVES</h1>
         <img
@@ -44,22 +71,31 @@
         />
       </header>
       <div id="gridcontainer">
-        <div class="child child-1">
+        <div class="child">
           <h2>Transform your brand</h2>
           <p class="para">
             We are a full-service creative agency specializing in helping brands
-            grow fast.Engage your clients through compelling visuals that do
+            grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
           <div class="learn-more">learn more</div>
         </div>
-        <div class="child child-2">
-          <img src="./images/desktop/image-transform.jpg" alt="" />
+        <div class="child">
+          <img src="./images/desktop/image-transform.jpg" alt="transform" />
         </div>
-        <div class="child child-3">
-          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+        <div class="child">
+          <img
+            class="desktop"
+            src="./images/desktop/image-stand-out.jpg"
+            alt=""
+          />
+          <img
+            class="mobile"
+            src="./images/mobile/image-stand-out.jpg"
+            alt=""
+          />
         </div>
-        <div class="child child-4">
+        <div class="child">
           <h2>Stand out to the right audience</h2>
           <p class="para">
             Using a collaborative formula of designers, researchers,
@@ -68,7 +104,7 @@
           </p>
           <div class="learn-more">learn more</div>
         </div>
-        <div class="child child-5">
+        <div class="child">
           <h2>Graphic Design</h2>
           <p class="para">
             Great design makes you memorable. We deliver artwork that
@@ -76,7 +112,7 @@
             attention.
           </p>
         </div>
-        <div class="child child-6">
+        <div class="child">
           <h2>Photography</h2>
           <p class="para">
             increase your credibility by getting the most stunning, high-quality
@@ -123,27 +159,58 @@
         </div>
       </div>
       <div id="images">
-        <div class="image-1">
-          <img
-            src="./images/desktop/image-gallery-milkbottles.jpg"
-            alt="milkbottles"
-          />
-        </div>
-        <div class="image-2">
-          <img
-            src="./images/desktop/image-gallery-orange.jpg"
-            alt="orangeorange"
-          />
-        </div>
-        <div class="image-3">
-          <img src="./images/desktop/image-gallery-cone.jpg" alt="cone" />
-        </div>
-        <div class="image-4">
-          <img
-            src="./images/desktop/image-gallery-sugarcubes.jpg"
-            alt="sugarcubes"
-          />
-        </div>
+        <section class="section1">
+          <div class="image-1">
+            <img
+              class="desktop"
+              src="./images/desktop/image-gallery-milkbottles.jpg"
+              alt="milkbottles"
+            />
+            <img
+              class="mobile"
+              src="./images/mobile/image-gallery-milkbottles.jpg"
+              alt="milkbottles"
+            />
+          </div>
+          <div class="image-2">
+            <img
+              class="desktop"
+              src="./images/desktop/image-gallery-orange.jpg"
+              alt="orange"
+            />
+            <img
+              class="mobile"
+              src="./images/mobile/image-gallery-orange.jpg"
+              alt="orange"
+            />
+          </div>
+        </section>
+        <section class="section2">
+          <div class="image-3">
+            <img
+              class="desktop"
+              src="./images/desktop/image-gallery-cone.jpg"
+              alt="cone"
+            />
+            <img
+              class="mobile"
+              src="./images/mobile/image-gallery-cone.jpg"
+              alt="cone"
+            />
+          </div>
+          <div class="image-4">
+            <img
+              class="desktop"
+              src="./images/desktop/image-gallery-sugarcubes.jpg"
+              alt="sugarcubes"
+            />
+            <img
+              class="mobile"
+              src="./images/mobile/image-gallery-sugar-cubes.jpg"
+              alt="sugarcubes"
+            />
+          </div>
+        </section>
       </div>
       <footer>
         <div id="footerLogo">
